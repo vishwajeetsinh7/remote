@@ -1,0 +1,219 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* =========================================first header================================================================  */
+
+.header1{
+    
+    background-color: #f5f5f5;
+    padding: 0 36px 0 38px;
+    display: flex;
+
+    
+
+    
+    
+    
+    
+}
+
+.airjordan{
+    /* display: inline-block; */
+}
+
+.useress{
+    display: flex;
+    justify-content:flex-start;
+    position:absolute;
+    right: 20px;
+
+   
+   
+
+}
+
+.profile, .wishlist, .bag{
+    size: 0.5rem;
+
+    font-size:0.7rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    cursor:grab;
+}
+.signintext{
+    display:none;
+}
+.signin:hover{
+    color: grey;
+    position: static;
+    size: 1rem;
+}
+.signin:hover + .signintext{
+    display:inline-flex;
+}
+
+/*==========================================  header2========================================================================== */
+
+.header2{
+    
+    width: 100%;
+    background-color: #fff;
+    display: inline-flex;
+    position: absolute
+}
+.d{
+    display:inline-flex;
+    font-size: .9em;
+}
+
+.logo{
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.mainMenu{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+    
+ 
+}
+
+.ul{
+    max-width: 1255px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.li{
+    list-style-type: none;
+    float: left;
+    padding:10px 10px;
+    text-align: center;
+    
+}
+
+/* serchbox================================================ */
+
+.searchIcon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    margin-top:-18px;
+    
+
+    padding-left: 10px;
+    padding-top: 3px;
+    fill: black;
+}
+.search{
+    display: inline-block;
+    height: 40px;
+    margin:0 10px;
+    /* padding: 0 20px 0 16px; */
+    top:0;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    cursor:text;
+    margin-top:10px;
+
+    margin-right: 40px;
+    
+
+}
+
+.MainSearch{
+    display:inline-flex;
+    margin-top: 10px;
+    top:-10px;
+    position: relative;
+    height: 35px;
+    width: 250px;
+    box-sizing: border-box;
+    border: none;
+
+    border-radius:50px;
+    background: #f5f5f5;;
+
+
+
+    
+}
+
+/* ==========================================================================
+ main sectiion main homepage
+ ============================================================================
+ */
+
+.main{
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.con{
+    height:640px;
+    
+}
+
+.iphone{
+    display: inherit;
+    
+
+
+}
+
+.iphoneText{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.mac{
+    background-size:fill;
+
+
+    
+}
+/* 
+section 2 ======================================================================
+first h2 who are you shopping forr                                ================================================== 
+ */
+
+
+ .cat{
+     margin-left: 20px;
+     margin-top: 70px;
+     font-weight: bold;
+ }
+ .sqare{
+     display: inline;
+     
+     margin-top: 50px;
+ }
+
+ .catcard{
+     display: inline-flex;
+     margin-left: 20px;
+     margin-right: 10px;
+     /* margin-left: px; */
+     width: 465px;
+     height: 581px;
+     /* background-color: red; */
+ }
